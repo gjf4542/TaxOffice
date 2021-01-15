@@ -7,6 +7,8 @@ namespace TaxOffice
     {
 	private void registrationButton_Click(object sender, EventArgs e)
         {
+            var fullName = startInput_name.Text;
+            var password = startInput_password.Text;
         }
     }
 }

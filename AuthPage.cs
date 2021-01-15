@@ -15,5 +15,9 @@ namespace TaxOffice
                 return;
             }
         }
+
+	private void authorizationButton_Click(object sender, EventArgs e)
+        {
+	}
     }
 }

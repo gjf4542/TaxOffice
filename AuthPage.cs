@@ -20,6 +20,11 @@ namespace TaxOffice
         {
 		var fullName = startInput_name.Text;
 		var password = startInput_password.Text;
+        if (fullName == "ФИО" || password == "Пароль")
+        {
+            MessageBox.Show("Поля ФИО и Пароль должны быть заполнены");
+            return;
+        }
 	}
     }
 }

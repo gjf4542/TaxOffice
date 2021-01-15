@@ -5,5 +5,8 @@ namespace TaxOffice
 {
     public partial class Form1
     {
+	private void registrationButton_Click(object sender, EventArgs e)
+        {
+        }
     }
 }

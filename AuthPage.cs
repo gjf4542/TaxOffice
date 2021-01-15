@@ -18,6 +18,8 @@ namespace TaxOffice
 
 	private void authorizationButton_Click(object sender, EventArgs e)
         {
+		var fullName = startInput_name.Text;
+		var password = startInput_password.Text;
 	}
     }
 }
